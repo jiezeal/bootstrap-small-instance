@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title>
+    <!-- Bootstrap -->
+    <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/web/css/common.css" rel="stylesheet">
+    <link href="public/web/css/index.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- 页头部分开始 -->
+    <nav class="navbar navbar-default navbar-fixed-top header">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand logo"><img src="public/web/images/logo.png" alt="LOGO"></a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-left nav-header">
+            <li class="active"><a href="index.html">首页</a></li>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html">首页</a></li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <!-- 未登录前 -->
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+          </ul> -->
+          <!-- 登录后 -->
+          <ul class="nav navbar-nav navbar-right user">
+            <li>
+              <a href="member.html" class="user-avatar"><img src="public/web/images/user-avatar.png" alt="faceImg" /></a>
+              <a href="member.html" class="username">zhangsan</a>
+            </li>
+          </ul>        
+        </div>
+      </div>
+    </nav>
+    <!-- 页头部分结束 -->
+  
+    <!-- banner开始 -->
+    <div id="banner" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#banner" data-slide-to="0" class="active"></li>
+        <li data-target="#banner" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active" style="background-color: #223240;">
+          <img src="public/web/images/slide1.png" alt="第一张" />
+        </div>
+        <div class="item" style="background-color: #F5E4DC;">
+          <img src="public/web/images/slide2.png" alt="第三张" />
+        </div>
+      </div>
+      <a href="#banner" data-slide="prev" class="carousel-control left toggle-btn">&lsaquo;</a>
+      <a href="#banner" data-slide="next" class="carousel-control right toggle-btn">&rsaquo;</a>
+    </div>
+    <!-- banner结束 -->
+    
+    <!-- 社区精华帖开始 -->
+    <div class="container sticky-post">
+      <div class="row mt">
+        <div class="col-md-12">社区精华帖</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-6 item">
+          <a href="#" class="face fl">
+            <img src="public/web/images/face.jpg" alt="face" width="44px" />
+          </a>
+          <span class="tag fl">分享</span>
+          <a href="#" class="con fl">Laravel 学习笔记之 Two-Factor Authentication 神器Laravel 学习笔记之 Two-Factor Authentication 神器</a>
+          <div class="reply fr">
+            <span>4 点赞</span>
+            <span>5 回复</span>
+          </div>
+        </div>
+        <div class="col-md-12 more"><a href="#">查看更多精华帖</a></div>
+      </div>
+    </div>  
+    <!-- 社区精华帖结束 -->
+
+    <!-- 文章列表开始 -->
+    <div class="container article-list">
+      <div class="container item">
+        <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object" src="public/web/images/market.png" alt="market" width="60px">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading"><a href="#">我是大漠</a></h4>
+            <ul class="mt">
+              <li><a href="#">牛小七</a></li>
+              <li><a href="#">2016年9月29日</a></li>
+              <li><span>发布在</span><a href="#">视频直播技术详解</a></li>
+            </ul>
+            <div>
+              我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例
+            </div>
+            <a href="#" class="continue">继续阅读...</a>
+          </div>
+        </div>
+      </div>
+      <div class="container item">
+        <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object" src="public/web/images/market.png" alt="market" width="60px">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading"><a href="#">我是大漠</a></h4>
+            <ul class="mt">
+              <li><a href="#">牛小七</a></li>
+              <li><a href="#">2016年9月29日</a></li>
+              <li><span>发布在</span><a href="#">视频直播技术详解</a></li>
+            </ul>
+            <div>
+              我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例
+            </div>
+            <a href="#" class="continue">继续阅读...</a>
+          </div>
+        </div>
+      </div>
+      <div class="container item">
+        <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object" src="public/web/images/market.png" alt="market" width="60px">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading"><a href="#">我是大漠</a></h4>
+            <ul class="mt">
+              <li><a href="#">牛小七</a></li>
+              <li><a href="#">2016年9月29日</a></li>
+              <li><span>发布在</span><a href="#">视频直播技术详解</a></li>
+            </ul>
+            <div>
+              我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例
+            </div>
+            <a href="#" class="continue">继续阅读...</a>
+          </div>
+        </div>
+      </div>
+      <div class="container item">
+        <div class="media">
+          <a class="pull-left" href="#">
+            <img class="media-object" src="public/web/images/market.png" alt="market" width="60px">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading"><a href="#">我是大漠</a></h4>
+            <ul class="mt">
+              <li><a href="#">牛小七</a></li>
+              <li><a href="#">2016年9月29日</a></li>
+              <li><span>发布在</span><a href="#">视频直播技术详解</a></li>
+            </ul>
+            <div>
+              我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例我是W3cplus站长大漠，我在写Bootstrap框中的媒体对象测试用例
+            </div>
+            <a href="#" class="continue">继续阅读...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 文章列表结束 -->
+
+    <!-- 页脚部分开始 -->
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 desc">
+            <p>我们是中国最靠谱的 Laravel 开发者社区，致力于为 Laravel 开发者提供一个分享创造、结识伙伴、协同互助的平台。</p>
+            <strong><span>Powered by</span> PHPHub</strong>
+          </div>
+          <div class="col-md-7 link">
+            <dl class="item item1 fl">
+              <dt>二维码</dt>
+              <dd><img src="public/web/images/bg1.png" width="98px" alt=""></dd>
+              <dd><img src="public/web/images/bg2.png" width="98px" alt=""></dd>
+            </dl>
+            <dl class="item item2 fl">
+              <dt>友情链接</dt>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+            </dl>
+            <dl class="item item3 fl">
+              <dt>友情链接</dt>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+              <dd><a href="#">兄弟连兄弟连兄弟连</a></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 页脚部分结束 -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="public/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="public/web/js/index.js"></script>
+  </body>
+</html>
